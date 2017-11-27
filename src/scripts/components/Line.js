@@ -38,11 +38,11 @@ class Line extends React.Component {
 
       requestAnimationFrame(() => {
         lineC.style.transform = ''
-        lineC.style.transition = 'transform 1000ms'
+        lineC.style.transition = 'transform 750ms'
         lineC.style.transitionTimingFunction = 'ease'
 
         areaC.style.transform = ''
-        areaC.style.transition = 'transform 1000ms'
+        areaC.style.transition = 'transform 750ms'
         areaC.style.transitionTimingFunction = 'ease'
       })
     })

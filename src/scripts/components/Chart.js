@@ -1,9 +1,13 @@
 import React from 'react'
 import pure from 'recompose/pure'
+import styled from 'styled-components'
 import Points from './Points'
 import Line from './Line'
 
-import styles from './Chart.css'
+const Svg = styled.svg`
+  background-color: #FAFAFA;
+  display: block;
+`
 
 class Chart extends React.Component {
   constructor(props) {
@@ -35,14 +39,14 @@ class Chart extends React.Component {
   render() {
     return (
       <div>
-        <svg className={styles.base}>
+        <Svg>
           <Line
             data={this.state.data}
           />
           <Points
             data={this.state.data}
           />
-        </svg>
+        </Svg>
         <button onClick={this.onClick}>Click</button>
       </div>
     )

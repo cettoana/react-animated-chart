@@ -29,7 +29,7 @@ class Points extends React.Component {
 
         requestAnimationFrame(() => {
           component.style.transform = ''
-          component.style.transition = 'transform 1000ms'
+          component.style.transition = 'transform 750ms'
           component.style.transitionTimingFunction = 'ease'
         })
       })
@@ -44,7 +44,7 @@ class Points extends React.Component {
 
       requestAnimationFrame(() => {
         component.style.transform = ''
-        component.style.transition = 'transform 1000ms'
+        component.style.transition = 'transform 750ms'
         component.style.transitionTimingFunction = 'ease'
       })
     })
