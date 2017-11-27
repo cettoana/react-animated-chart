@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import styled from 'styled-components'
-import Chart from './components/Chart'
+import Demo from './Demo'
 
 const mountNode = document.getElementById('root')
 
@@ -14,7 +14,7 @@ const Base = styled.div`
 
 const Root = () => (
   <Base>
-    <Chart />
+    <Demo />
   </Base>
 )
 
