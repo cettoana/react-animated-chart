@@ -14,8 +14,9 @@
   "license": "ISC",
   "dependencies": {
     "d3-shape": "^1.0.4",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "recompose": "^0.22.0"
   },
   "devDependencies": {
